@@ -3,7 +3,7 @@ const Navbar = ()=>{
         <>
             <nav className="navbar fixed-top navbar-expand-sm bg-white navbar-light">
                 <div className="container">
-                <a href="#" className="navbar-brand">
+                <a href="#home" className="navbar-brand">
                     TR
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -22,10 +22,7 @@ const Navbar = ()=>{
                     </li>
                     <li className="nav-item">
                         <a className="nav-link nav-contact"  href="#contact">Contact</a>
-                    </li>    
-                    <li className="nav-item">
-                        <a className="nav-link"  href="/travel.html">Travel</a>
-                    </li>    
+                    </li>     
                     </ul>
                 </div>
                 </div>
